@@ -5,7 +5,7 @@
 ARG BASE_IMAGE=nvcr.io/nvidia/l4t-base:r32.5.0
 FROM ${BASE_IMAGE}
 
-ARG ROS_PKG=ros_base
+ARG ROS_PKG=desktop
 ENV ROS_DISTRO=melodic
 ENV ROS_ROOT=/opt/ros/${ROS_DISTRO}
 

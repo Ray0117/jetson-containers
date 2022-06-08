@@ -23,6 +23,8 @@ if [ $ARCH = "aarch64" ]; then
 			BASE_IMAGE=$BASE_DEVEL
 		fi
 		
+		BASE_IMAGE="nvcr.io/nvidia/l4t-base:r32.7.1"
+
 		BASE_IMAGE_L4T=$BASE_IMAGE
 		
 	elif [ $L4T_RELEASE -eq 34 ]; then
